@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--#include virtual="header.html" -->
+
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.shtml">Home</a></li>
+          <li><a href="research.shtml">Research</a></li>
+          <li class="selected"><a href="misc.shtml">Misc</a></li>
+          <li><a href="http://www.cs.rice.edu/~la5/doc">Doc</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <!-- insert the page content here -->
+        <p>
+        <h2>Programming</h2><br/>        	 
+        <img src="howcoffeeworks.png" />
+        <p>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-02bb4b617bd548e126333710441af4ed" />
+        </p>
+        <p>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-e5c0f78ce5abbd2b319309e22136c11a" />
+        </p>
+        <p>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-28e86c206d03bf0cab9ba1da63d1a8a6" />
+        </p>
+        <p>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-e8fbddd74a633d99bd3172bb67cc613e" />
+        </p>
+        <p>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-ca3b0147c4ec7b0e8308680e21f3ed08" />
+        </p>
+        <p>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-e681cea52dfb9262a1f7420d1960d11f" />
+        </p>
+        <p>
+        </p>
+        <h2>Programmer's day</h2>
+        <p>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-44efc207d19699d352e4021ba2badc7a" width="700" />
+        </p>
+        <p>
+        </p>
+        <p>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-4105b2f165cb4396ced4a0c82cb89a89" width="700" />
+        </p>
+        <h2>The Top 20 replies by programmers when their programs do not work:</h2><br/>        	 
+<pre>
+20. "That's weird..."
+19. "It's never done that before."
+18. "It worked yesterday."
+17. "How is that possible?"
+16. "It must be a hardware problem."
+15. "What did you type in wrong to get it to crash?"
+14. "There is something funky in your data."
+13. "I haven't touched that module in weeks!"
+12. "You must have the wrong version."
+11. "It's just some unlucky coincidence."
+10. "I can't test everything!"
+9. "THIS can't be the source of THAT."
+8. "It works, but it hasn't been tested."
+7. "Somebody must have changed my code."
+6. "Did you check for a virus on your system?"
+5. "Even though it doesn't work, how does it feel?
+4. "You can't use that version on your system."
+3. "Why do you want to do it that way?"
+2. "Where were you when the program blew up?"
+</pre>
+<br/>
+And the Number One reply by programmers when their programs don't work:
+<br/>
+<br/>
+
+<pre>
+1. "It works on my machine."
+</pre>
+</p>
+<p>
+<p>
+When I first coded, God and I alone understood it. 6 months later, only God.
+<br/>(Anonymous)
+</p>
+        <p>"Protons and electrons, unlike photons, must be Catholic, because they have mass".<br/>(Anonymous)
+        </p><p></p>
+        <p> A Southerners worst nightmare is driving with snow and ice on the road. <br/>
+        A Northerners worst nightmare is driving with snow and ice on the road....surrounded by Southerners. 
+	<br/>(Anonymous)
+        </p>
+<p>
+<img src="https://qph.fs.quoracdn.net/main-qimg-9f242f1cb93c947a14133e4d96df6284"></p>
+</p>
+<p>
+<img src="https://qph.ec.quoracdn.net/main-qimg-23916ba03ebfd6dcd5f08cd0f0318200.webp"></p>
+
+        <h2>How standards proliferate ....</h2> <br/>
+        From http://highscalability.com/blog/2014/1/2/xkcd-how-standards-proliferate.html<br/>
+        <img src="http://imgs.xkcd.com/comics/standards.png"/></p>
+        <p>Newton vs. Leibniz
+        <br/>From: http://imgs.xkcd.com/comics/newton_and_leibniz.png</p>
+        <img src="http://imgs.xkcd.com/comics/newton_and_leibniz.png" />
+        <!--p>The most interesting man in the world thinks about MPI.... <br/>
+        <img src="http://cdn.meme.am/instances/500x/64565703.jpg" / -->
+        </p>
+
+        <h2>The logic of programmers</h2> <br/>
+        From Quora John Purcell's answer <br/>
+        <img src="https://qph.ec.quoracdn.net/main-qimg-762390f6c44fdcb31cf01657d776d181-c?convert_to_webp=true"/></p>
+      </div>
+    <!--#include virtual="footer.html" -->
+</body>
+</html>

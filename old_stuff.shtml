@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--#include virtual="header.html" -->
+
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.shtml">Home</a></li>
+          <li><a href="research.shtml">Research</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Contact </h1>
+	<ul>
+    	 <li> Email: laksono at rice dot edu </li>
+    	 <li> Phone: 713 348 6189</li>
+    	 <li> Fax: 713 348 5930</li>
+    	 <li> Snail mail: Dept. of Computer Science - MS 132, P.O. Box 1892, Houston, TX, 77251-1892</li>
+  	</ul>
+        
+	<h1>Update</h1>
+
+	<a href="http://sc10.supercomputing.org">Supercomputing 2010</a> Nov 14-18, New Orleans LA
+	<ul>
+	 <li><a href="">Partitioned Global Address Space (PGAS) booth</a></li>
+	 <li><a href="http://sc10.supercomputing.org/schedule/event_detail.php?evid=pap433">Scalable Identification of Load Imbalance in Parallel Executions using Call Path Profiles</a> </li>
+	</ul>
+
+	<p>
+	<a href="http://groups.google.com/group/pgas10/web/call-for-papers">The Partitioned Global Address Space (PGAS) 2010</a><br/>
+	Oct 12-15, 2010<br/>
+	Columbia University, New York
+	</p>
+
+	<p>
+	<a href="http://www.psti-workshop.org">PSTI 2010</a> and <a href="http://www.cse.ohio-state.edu/~lai/icpp2010/index.html">ICPP 2010</a><br/>
+		September 13-16 2010<br/>
+		San Diego, California>
+	</p>
+
+	<p>The 4th IEEE workshop on performance modeling and evaluation in computer and telecommunication networks (PMECT 2010) 
+	See: <a href="http://www.rn.inf.tu-dresden.de/hwn/2010/PMECT/dates.html">http://www.rn.inf.tu-dresden.de/hwn/2010/PMECT/dates.html</a>
+	</p>
+			
+
+	<p>The Third Conference on Partitioned Global Address Space Programming Models (<a href="http://hpcl.gwu.edu/pgas2009/">PGAS 09</a>)<br/>
+	October 5-8, 2009<br/>
+	The George Washington University, Virginia Campus, Ashburn,  VA
+	</p>
+
+	<p>EclipseCon 2009
+	March 23<sup>rd</sup> - 26<sup>th</sup> 2009<br/>
+	Santa Clara, California
+	</p>
+	 <ul>
+		<li>Presentation: <a href="http://www.eclipsecon.org/2009/sessions?id=684">http://www.eclipsecon.org/2009/sessions?id=684</a></li>
+		<li>Session: <a href="http://www.eclipsecon.org/2009/sessions?id=706">http://www.eclipsecon.org/2009/sessions?id=706</a></li>
+		<li>Info: Wednesday, 10:30  Room 203/204 </li>
+	 </ul>
+
+
+      </div>
+    <!--#include virtual="footer.html" -->
+</body>
+</html>

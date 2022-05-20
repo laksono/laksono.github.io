@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--#include virtual="header.html" -->
+
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.shtml">Home</a></li>
+          <li><a href="research.shtml">Research</a></li>
+          <li class="selected"><a href="link.shtml">Home</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Parallel applications</h1>
+	<ul>
+    	 <li> <a href="http://www-ljk.imag.fr/MOISE/AGRIF/overview.html">AGRIF</a>: a Fortran 90 package for the integration of full adaptive mesh refinement (AMR) features within a multidimensional finite difference model </li>
+	 <li><a href="http://parlab.eecs.berkeley.edu/wiki/patterns/patterns">Pattern language for parallel programming</a></li>
+	 <li><a href="http://www.ks.uiuc.edu/Research/namd/">NAMD</a>: a parallel molecular dynamics code for large biomolecular systems</li>
+  	</ul>
+        
+      </div>
+    <!--#include virtual="footer.html" -->
+</body>
+</html>

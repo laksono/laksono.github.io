@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--#include virtual="header.html" -->
+
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.shtml">Home</a></li>
+          <li class="selected"><a href="research.html">Research</a></li>
+          <li><a href="misc.shtml">Misc</a></li>
+          <li><a href="http://www.cs.rice.edu/~la5/doc">Doc</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Current work</h1>
+<ul>
+ <li>Research and development of <a href="http://hpctoolkit.org">HPCToolkit</a> for measurement and analysis of application performance measurement, analysis and tuning of important science and engineering applications at the direction of the <a href="http://www.er.doe.gov/">DOE Office of Science</a> as part of the <a href="http://www.scidac.gov">SciDAC</a> <a href="http://www.peri-scidac.org">PERI</a>, <a href="http://cscads.rice.edu">CScADS</a> projects, <a href="https://wiki.modelado.org/PIPER">PIPER</a> and <a href="https://www.exascaleproject.org/">ECP</a>. </li>
+ <li>Research, development, and evaluation of programming models for scalable parallel systems. This work on both global view programming models (related to DARPA's HPCS program) and partitioned global address space languages (PGAS), including UPC and <a href="http://caf.rice.edu">Coarray Fortran</a>.</li>
+</ul>
+
+	<h1>Publications</h1>
+
+			<ul>
+			 <li>CoArray Fortran
+			  <ol>
+			   <li>Guohua Jin, John Mellor-Crummey, Laksono Adhianto, William N. Scherer III, Chaoran Yang. <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6012916&tag=1">Implementation and Performance Evaluation of the HPC Challenge Benchmarks in Coarray Fortran 2.0</a>. Proceedings of the 25th IEEE International Parallel Distributed Processing Symposium, Anchorage, Alaska, USA, May 2011. </li>
+			   <li>William N. Scherer III, Laksono Adhianto, Guohua Jin, John Mellor-Crummey, and Chaoran Yang. <a href="http://caf.rice.edu/publications/caf2-pgas10.pdf">Hiding Latency in Coarray Fortran 2.0</a>. The Fourth Conference on Partitioned Global Address Space Programming Models. New York, NY, October 12-15, 2010. </li>
+			   <li>John Mellor-Crummey, Laksono Adhianto, William N. Scherer, III, and Guohua Jin. 2009. <a href="http://portal.acm.org/citation.cfm?doid=1809961.1809969">A new vision for coarray Fortran</a>. In Proceedings of the Third Conference on Partitioned Global Address Space Programing Models (PGAS '09). ACM, New York, NY, USA, , Article 5 , 9 pages. DOI=10.1145/1809961.1809969 <a href="http://doi.acm.org/10.1145/1809961.1809969">http://doi.acm.org/10.1145/1809961.1809969</a> </li>
+			  <li>John Mellor-Crummey, Laksono Adhianto, William Scherer. <a href="http://www.j3-fortran.org/doc/meeting/183/08-126.pdf">A Critique of Co-array Features in Fortran 2008 Working Draft J3/07-007r3i</a>. J3-Fortran document, 2008.
+ </li>
+			  </ol>
+
+			 </li>
+			 <li>HPCToolkit
+			  <ul>
+			   <li>Journals/Conferences/Workshops
+			     <ol>
+				<li>Philip Taffet, Laksono Adhianto. Addressing Challenges in Visualizing Huge Call-Path Traces. ICPP Workshops 2016: 319-328 <a href="http://ieeexplore.ieee.org/document/7576482/"> DOI: 10.1109/ICPPW.2016.53</a> </li>
+				<li>Nathan R. Tallent, John Mellor-Crummey, Michael Franco, Reed Landrum, and Laksono Adhianto. 2011. Scalable fine-grained call path tracing. In Proceedings of the international conference on Supercomputing (ICS '11). ACM, New York, NY, USA, 63-74. DOI=10.1145/1995896.1995908 <a href="http://doi.acm.org/10.1145/1995896.1995908">http://doi.acm.org/10.1145/1995896.1995908</a> </li>
+				<li>Nathan R. Tallent, Laksono Adhianto, and John M. Mellor-Crummey. <a href="http://portal.acm.org/citation.cfm?id=1884683">Scalable identification of load imbalance in parallel executions using call path profiles</a>. In SC '10: Proc. of the 2010 ACM/IEEE Conference on Supercomputing, 2010. </li>
+				<li>Laksono Adhianto, John Mellor-Crummey, and Nathan R. Tallent. <a href="http://portal.acm.org/citation.cfm?id=1905126">Effectively presenting call path profiles of application performance</a>. In PSTI 2010: Workshop on Parallel Software Tools and Tool Infrastructures, in conjuction with the 2010 International Conference on Parallel Processing, 2010. </li>
+				<li> L. Adhianto, S. Banerjee, M. Fagan, M. Krentel, G. Marin, J. Mellor-Crummey, and N. R. Tallent. <a href="http://onlinelibrary.wiley.com/doi/10.1002/cpe.1553/abstract">HPCToolkit: Tools for performance analysis of optimized parallel programs</a>. Concurrency and Computation: Practice and Experience. 22(6):685701, 2010.</li>
+
+				<li>Tallent, N. R., Mellor-Crummey, J. M., Adhianto, L., Fagan, M. W., and Krentel, M. 2009. Diagnosing performance bottlenecks in emerging petascale applications. In Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis (Portland, Oregon, November 14 - 20, 2009). SC '09. ACM, New York, NY, 1-11. DOI= <a href="http://doi.acm.org/10.1145/1654059.1654111">http://doi.acm.org/10.1145/1654059.1654111</a>  </li>
+				<li>Fowler, R.; Adhianto, L.; de Supinski, B.; Fagan, M.; Gamblin, T.; Krentel, M.; Mellor-Crummey, J.; Schulz, M.; Tallent, <a href="http://stacks.iop.org/1742-6596/180/012041">N. Frontiers of performance analysis on leadership-class systems</a>. Journal of Physics: Conference Series, Volume 180, Issue 1, pp. 012041 (2009). </li>
+				<li>N Tallent, J Mellor-Crummey, L Adhianto, M Fagan and M Krentel, <a href="http://iopscience.iop.org/1742-6596/125/1/012088">HPCToolkit: performance tools for scientific computing</a>,   J. Phys.: Conf. Ser. 125 012088 (5pp)   doi: 10.1088/1742-6596/125/1/012088, 2008</li>
+				<li>L. Adhianto, M. Fagan, M. Krentel, G. Marin, J. Mellor-Crummey, and N. R. Tallent. <a href="http://www.cs.rice.edu/~johnmc/papers/hpctoolkit-nlplss-2008.pdf">HPCToolkit: Performance measurement and analysis for supercomputers with node-level parallelism</a>. In Workshop on Node Level Parallelism for Large Scale Supercomputers, in conjuction with Supercomputing 2008, November 2008.</li>
+			     </ol>
+
+			   </li>
+			   <li>Posters
+			     <ol>
+				<li>John Mellor-Crummey, Laksono Adhianto, Michael Fagan, Mark Krentel, and Nathan Tallent. <a href="www.hpcsw.org/pi_meeting/presentations/posters/mellor-crummey.pdf">Sampling-based Measurement and Analysis of Parallel Application Performance</a>, High Performance Computer Science Week, Denver, Colorado, March 31-April 2, 2008</li>
+				<li>L. Adhianto, S. Banerjee, M. Fagan, M. Krentel, G. Marin, J. Mellor-Crummey, and N. R. Tallent. <a href="http://sc08.supercomputing.org/scyourway/conference/view/post242.html">HPCToolkit: Performance Tools for Parallel Scientific Computing</a>. In SC '08: Proceedings of the 2008 ACM/IEEE conference on Supercomputing, New York, NY, USA, 2008. ACM.</li>
+			     </ol>
+			   </li>
+			  </ul>
+			 </li>
+			 <li>Previous publications
+<ul>
+<li>Journals
+<ol>
+ <li>Laksono Adhianto, Barbara M. Chapman.  <a href="http://linkinghub.elsevier.com/retrieve/pii/S1569190X06001109">Performance Modeling of Communication and Computation in Hybrid MPI and OpenMP Applications</a>.  Simulation Modelling Practice and Theory, Vol. 15, issue 4, April 2007</li>
+
+ <li>L.Adhianto, B. Chapman, D. Lancaster, I.Wolton, A. Kneer and F.Bodin <a href="http://onlinelibrary.wiley.com/doi/10.1002/1096-9128%28200010%2912:12%3C1177::AID-CPE533%3E3.0.CO;2-V/abstract"> Tools for OpenMP Application Development: The POST Project</a> . Concurrency: Practice and Experience Vol.12, pp. 1177-1191, 2000</li>
+</ol>
+</li>
+<li>Conferences/Workshops
+<ol>
+ <li>Laksono Adhianto, Barbara M. Chapman. <a href="http://www.capsl.udel.edu/conferences/open64/2008/Papers/105.pdf">An Open64-based Framework for Analyzing Parallel Applications</a>. Open64 Workshop in conjunction with CGO 2008, Boston, MA, 2008.</li>
+ <li>Laksono Adhianto, Barbara M. Chapman. Autoscoping Support for OpenMP Compiler. Tools and Compilers for Hardware Acceleration (TCHA'06), August 2006</li>
+  <li>   Laksono Adhianto, Barbara M. Chapman. <a href="http://portal.acm.org/citation.cfm?id=1157560">Performance Modeling of Communication and Computation in Hybrid MPI and OpenMP Applications</a>. In the Proceedings of the 2nd Performance Modeling and Analysis Computing
+(PMAC), 2006</li>
+  <li>   Barbara Chapman, Oscar Hernandez, Lei Huang, Tien-hsiung Weng, Zhenying Liu, Laksono Adhianto, Yi Wen. <a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1236416">Dragon: An Open64-Based Interactive Program Analysis Tool for Large Applications</a>. In the Proceedings of the 4th International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT), 2003</li>
+
+  <li>   Michael Leuschel, Laksono Adhianto, Michael Butler, Carla Ferreira and Leonid Mikhailov. <a href="http://eprints.ecs.soton.ac.uk/6022/">Animation and Model Checking of CSP and B using Prolog Technology</a>. Proceedings of the ACM Sigplan Workshop on Verification and Computational Logic VCL'2001, p.97-109</li>
+  <li>   M. Leuschel, I. Wolton, T. Massart, and L. Adhianto. <a href="http://eprints.ecs.soton.ac.uk/5930/"> Temporal Logic Model Checking of CSP, Tools and Techniques</a> . Workshop on Automated Verification of Critical Systems, Oxford, 2001</li>
+</ol>
+</li>
+
+</ul>
+			 </li>
+			</ul>
+
+
+
+      </div>
+    <!--#include virtual="footer.html" -->
+</body>
+</html>
